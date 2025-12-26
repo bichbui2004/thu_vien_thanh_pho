@@ -1,19 +1,16 @@
 <?php
-// connect.php
 $servername = "localhost";
 $username = "root";
 $password = "";
 $database = "quan_ly_thu_vien";
+//$port = 3306
 
+// Create connection
 $conn = new mysqli($servername, $username, $password, $database);
 
+// Check connection
 if ($conn->connect_error) {
-  die("Kết nối thất bại: " . $conn->connect_error);
+  die("Connection failed: " . $conn->connect_error);
 }
-mysqli_set_charset($conn, "utf8mb4");
-
-// Thêm dòng này để dùng được $_SESSION cho giỏ hàng
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
+//echo "Connected successfully";
 ?>

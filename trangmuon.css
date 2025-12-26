@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+.box-trai{
+    background-color: rgb(89, 89, 211);
+    width: 15%;
+    height: 695px;
+}
+.box-phai{
+    width: 85%;
+    margin-right: 0;
+}
+.title{
+    font-size: 20px; 
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 15.5px;
+    color: white;
+}
+.box{
+    border-bottom: 1px solid gray;
+    background-color: aliceblue;
+    width: 90%;
+    margin:auto;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+.box li{
+    padding: 10px;
+}
+.box li:hover{
+    background-color: rgb(89, 89, 211,0.5);
+}
+.menu{
+    background-color: rgb(89, 89, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+}
+.menu li ul{
+    position:absolute;
+    background-color: rgba(51, 45, 45, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px;
+    top: 35px;
+    right: 10px;
+    display:none;
+    padding: 10px;
+}
+.menu li:hover ul{
+    display: block;
+}
+.sub-menu li{
+    border-bottom: 1px solid white;
+}
+.sub-menu a{
+    color: white;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+.table-container {
+    width: 100%;
+ }
+.table-container th {
+    text-align: left;
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.table-container td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee; 
+    font-size: 13px;
+    color: #444;
+}
+.trang-thai {
+    padding: 5px 10px;
+    border-radius: 12px; 
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.cho-xac-nhan { 
+    background-color: #6c757d; } 
+.cho-giao { 
+    background-color: #0d6efd; }     
+
+.btn-xem {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+     width: 30px;
+    height: 30px;
+    border-radius: 4px;
+     font-weight: bold;
+        }

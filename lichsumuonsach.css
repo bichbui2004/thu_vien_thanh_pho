@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+.box-trai{
+    background-color: rgb(89, 89, 211);
+    width: 15%;
+    height: 695px;
+}
+.box-phai{
+    width: 85%;
+    margin-right: 0;
+}
+.title{
+    font-size: 20px; 
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 15.5px;
+    color: white;
+}
+.box{
+    border-bottom: 1px solid gray;
+    background-color: aliceblue;
+    width: 90%;
+    margin:auto;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+.box li{
+    padding: 10px;
+}
+.box li:hover{
+    background-color: rgb(89, 89, 211,0.5);
+}
+.menu{
+    background-color: rgb(89, 89, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+}
+.menu li ul{
+    position:absolute;
+    background-color: rgba(51, 45, 45, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px;
+    top: 35px;
+    right: 10px;
+    display:none;
+    padding: 10px;
+}
+.menu li:hover ul{
+    display: block;
+}
+.sub-menu li{
+    border-bottom: 1px solid white;
+}
+.sub-menu a{
+    color: white;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+.container h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.filter-box {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.filter-box select,
+.filter-box input {
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.book-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-card {
+    width: 30%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-card img {
+    width: 100%;
+    height: 180px;
+}
+
+.book-card h3 {
+    color: #008f7a;
+    margin-top: 10px;
+}
+
+.status {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.returned {
+    color: #0c8c74;
+}
