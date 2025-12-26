@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="dangky.css">
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li style="font-size: 20px;"><a href="#">Thư viện thành phố</a></li>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="">Chủ đề</a>
+                <ul class="sub-menu">
+                    <li><a href="#" >Tiểu thuyết</a></li>
+                    <li><a href="#">Trinh thám</a></li>
+                    <li><a href="#">Truyện tranh</a></li>
+                    <li><a href="#">SGK</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Đăng nhập</a></li>
+            <li><a href="">Đăng ký</a></li>
+        </ul>
+    </header>
+    <div class="banner">
+        <img src="anh1.jpg" width="100%">
+    </div>
+    <main>
+        <div class="box-left">
+            <div class="timkiem">
+                <input type="text" id="search" name="timkiem" placeholder="Nhập tựa sách cần tìm"><button>Tìm</button>
+            </div>
+            <ul class="tab-menu">
+                <li class="border" style="background-color: rgb(58, 58, 211); color: white; border-radius: 10px 10px 0px 0px;">Sách đọc nhiều</li>
+                <li class="border">1. Đắc nhân tâm</li>
+                <li class="border">2. Tuổi trẻ đáng giá bao nhiêu?</li>
+                <li class="border">3. Bí quyết không ăn mà vẫn sống</li>
+                <li>4. Sắc đẹp ngàn cân</li>
+            </ul>
+        </div>
+        <div class="box-right">
+            <h1>Đăng ký</h1>
+            <form>
+                <div class="tt">Họ tên<br>
+                    <input type="text" id="hoten" name="hoTen">
+                </div>
+                <div class="tt">Số điện thoại<br>
+                    <input type="text" id="tel" name="sodienthoai">
+                </div>
+                <div class="tt">Mật khẩu<br>
+                    <input type="text" id="password" name="matkhau">
+                </div>
+            <div class="btn"><input type="submit" id="sign-up" name="dangky" value="Đăng ký"></div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

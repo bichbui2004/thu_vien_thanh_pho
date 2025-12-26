@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+.box-trai{
+    background-color: rgb(89, 89, 211);
+    width: 15%;
+    height: 695px;
+}
+.box-phai{
+    width: 85%;
+    margin-right: 0;
+}
+.title{
+    font-size: 20px; 
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 15.5px;
+    color: white;
+}
+.box{
+    border-bottom: 1px solid gray;
+    background-color: aliceblue;
+    width: 90%;
+    margin:auto;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+.box li{
+    padding: 10px;
+}
+.box li:hover{
+    background-color: rgb(89, 89, 211,0.5);
+}
+.menu{
+    background-color: rgb(89, 89, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+}
+.menu li ul{
+    position:absolute;
+    background-color: rgba(51, 45, 45, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px;
+    top: 35px;
+    right: 10px;
+    display:none;
+    padding: 10px;
+}
+.menu li:hover ul{
+    display: block;
+}
+.sub-menu li{
+    border-bottom: 1px solid white;
+}
+.sub-menu a{
+    color: white;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+.box-phai h1{
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form div{
+    padding: 10px 0px;
+}
+.tt input{
+    margin-top: 5px;
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+}
+form select{
+    margin-top: 5px;
+    width: 60.5%;
+    height: 35px;
+    border-radius: 5px; 
+    font-size: 16px;
+    border: 1px solid lightgray;  
+}
+.btn input{
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}

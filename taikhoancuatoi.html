@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin tài khoản</title>
+    <link rel="stylesheet" href="taikhoancuatoi.css">
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li style="font-size: 20px;"><a href="#">Thư viện thành phố</a></li>
+            <li><a href="file:///D:/btl%20web/trangchu.html">Trang chủ</a></li>
+            <li><a href="">Chủ đề</a>
+                <ul class="sub-menu">
+                    <li><a href="#" >Tiểu thuyết</a></li>
+                    <li><a href="#">Trinh thám</a></li>
+                    <li><a href="#">Truyện tranh</a></li>
+                    <li><a href="#">SGK</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Giỏ hàng</a></li>
+            <li><a href="">Xin chào, Your Name</a>
+                <ul class="sub-menu">
+                    <li><a href="file:///D:/btl%20web/taikhoancuatoi.html#">Thông tin tài khoản</a></li>
+                    <li><a href="#">Lịch sử mượn sách</a></li>
+                    <li><a href="#">Đăng xuất</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <h1 align="center" style="color:rgb(39, 39, 105); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-bottom: 15px;">Hồ sơ của tôi</h1>
+        <div class="thongtin">
+        <form>
+            <div class="tt">
+                <div>Tên đăng nhập: </div> 
+                <div><input type="text" id="username" name="tendangnhap" value="youraccount"></div>
+            </div>
+            <div class="tt">
+                <div>Tên:</div> 
+                <div><input type="text" id="name" name="yourname" value="yourname" ></div>
+            </div>
+            <div class="tt">
+                <div>Email:</div> 
+                <div><input type="email" name="email" id="email" value="youremail@gmail.com" ></div>
+            </div>
+            <div class="tt">
+                <div>Số điện thoại:</div> 
+                <div><input type="number" id="tel" name="sodienthoai" value="0123456789" ></div>
+            </div>
+            <div class="tt">
+                <div>Ngày sinh:</div>
+                <div>
+                <select name="ngay">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select name="thang">
+                    <option value="1">Tháng 1</option>
+                    <option value="2">Tháng 2</option>
+                    <option value="3">Tháng 3</option>
+                    <option value="4">Tháng 4</option>
+                    <option value="5">Tháng 5</option>
+                    <option value="6">Tháng 6</option>
+                    <option value="7">Tháng 7</option>
+                    <option value="8">Tháng 8</option>
+                    <option value="9">Tháng 9</option>
+                    <option value="10">Tháng 10</option>
+                    <option value="11">Tháng 11</option>
+                    <option value="12">Tháng 12</option>
+                </select>
+                <select name="nam">
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                </select>
+                </div>
+            </div>
+            <div class="tt">
+                <div>Địa chỉ:</div> 
+                <div><input type="text" id="diachi" name="diachi" value="Trường Đại học Mỏ - Địa chất" size="30px"></div>
+            </div>
+            <div class="tt">
+                <div>Mật khẩu:</div> 
+                <div><input type="password" id="passwork" name="matkhau" value="88888888" ></div>
+            </div>            
+            <div align="center" >
+                <input style="font-size: 20px; border-radius: 5px; background-color: rgb(90, 55, 167); font-weight: 200; margin-top: 20px; color: white; padding: 10px;" type="submit" value="Lưu">
+            </div></form>
+
+            <form align="center" action="/upload" method="POST" enctype="multipart/form-data">
+                <div style="margin: 10px"><img src="4.jpg" width="250px"></div>
+                <div >Thay ảnh:</div>
+                <input type="file" id="fileAnh" name="anhprofile">
+                <div><button style="font-size: 15px; border-radius: 5px; background-color: rgb(90, 55, 167); font-weight: 200; margin-top: 20px; color: white; padding: 5px 10px; border: 1px solid rgb(90, 55, 167)" type="submit">Tải Lên</button></div>
+            </form>
+            </div>
+    </main>
+</body>
+</html>

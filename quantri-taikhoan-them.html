@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm tài khoản</title>
+    <link rel="stylesheet" href="quantri-taikhoan-them-sua.css">
+</head>
+<body>
+    <div class="box-trai">
+        <div class="title" align="center">TRANG QUẢN LÝ</div>
+        <ul class="box">
+            <li><a href="#">Tổng quan</a></li>
+            <li style="background-color: rgb(79, 79, 128)"><a href="#" style="color:aliceblue">Tài khoản</a></li>
+            <li><a href="#">Chủ đề</a></li>
+            <li><a href="#">Sách</a></li>
+            <li><a href="#">Mượn/trả</a></li>
+        </ul>
+    </div>
+    <div class="box-phai">
+        <ul class="menu">
+            <li><a href="#" style="font-size: 25px; font-weight: 100;font-family: Arial, Helvetica, sans-serif; padding: 5px;color: white;">Thư viện thành phố</a></li>
+            <li><a href="" style="font-size: 15px; font-weight: 100;font-family: Arial, Helvetica, sans-serif; padding: 5px;color: white;">Xin chào, Your Name</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Đăng xuất</a></li>
+                </ul>
+            </li>
+        </ul>
+        <h1>Thêm tài khoản</h1>
+        <form>
+            <div class="tt">Số điện thoại<br>
+                <input type="text" id="tel" name="sodienthoai">
+            </div>
+            <div class="tt">Họ tên<br>
+                <input type="text" id="hoten" name="hoTen">
+            </div>
+            <div class="tt">Ví tiền<br>
+                <input type="number" id="sodu" name="sodu">
+            </div>
+            <div class="tt">Quyền<br>
+                <select name="quyen">
+                    <option value="1">Bạn đọc</option>
+                    <option value="2">Quản lý</option>
+                </select>
+            </div>
+            <div class="btn"><input type="submit" id="confirm" name="xacnhan" value="Xác nhận"></div>
+        </form>
+    </div>
+</body>
+</html>
