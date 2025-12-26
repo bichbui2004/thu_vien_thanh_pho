@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng - Thư viện thành phố</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <link rel="stylesheet" href="giohang.css">
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li style="font-size: 20px;"><a href="trangchu.html">Thư viện thành phố</a></li>
+            <li><a href="trangchu.html">Trang chủ</a></li>
+            <li><a href="#">Chủ đề</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Tiểu thuyết</a></li>
+                    <li><a href="#">Trinh thám</aS></li>
+                    <li><a href="#">Truyện tranh</a></li>
+                    <li><a href="#">SGK</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li><a href="giohang.html">Giỏ hàng (2)</a></li>
+            <li><a href="#">Xin chào,Duy Tiến</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Thông tin tài khoản</a></li>
+                    <li><a href="#">Lịch sử mượn sách</a></li>
+                    <li><a href="#">Đăng xuất</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="cart-container">
+        <h1>Giỏ mượn sách của bạn</h1>
+
+        <div class="cart-list">
+            <div class="cart-item">
+                <img src="images/dacnhantam.jpg" alt="Đắc Nhân Tâm">
+                <div class="info">
+                    <h3>Đắc Nhân Tâm</h3>
+                    <p>Dale Carnegie</p>
+                    <p>Thời gian mượn: 14 ngày</p>
+                </div>
+                <button class="remove">Xóa</button>
+            </div>
+
+            <div class="cart-item">
+                <img src="images/tuoitre.jpg" alt="Tuổi trẻ đáng giá bao nhiêu">
+                <div class="info">
+                    <h3>Tuổi trẻ đáng giá bao nhiêu?</h3>
+                    <p>Rosie Nguyễn</p>
+                    <p>Thời gian mượn: 14 ngày</p>
+                </div>
+                <button class="remove">Xóa</button>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <p><strong>Tổng cộng: 2 cuốn sách</strong></p>
+            <p>Thời gian mượn tối đa: 14 ngày</p>
+            <button class="btn-checkout">Xác nhận mượn sách</button>
+            <a href="trangchu.html" class="continue-shopping">← Tiếp tục tìm sách</a>
+        </div>
+    </div>
+</body>
+</html>

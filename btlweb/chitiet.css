@@ -1,0 +1,154 @@
+.container-detail {
+    width: 85%;
+    margin: 30px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-detail {
+    display: flex;
+    gap: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.book-img img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.book-content h1 {
+    font-size: 32px;
+    color: rgb(89, 89, 211);
+    margin-bottom: 15px;
+}
+
+.book-content p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.status { font-weight: bold; }
+
+.btn-group {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-add-cart {
+    background: rgb(89, 89, 211);
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-favorite {
+    background: white;
+    color: rgb(89, 89, 211);
+    border: 2px solid rgb(89, 89, 211);
+    padding: 14px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.description, .reviews-section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.description h2, .reviews-section h2 {
+    color: rgb(89, 89, 211);
+    border-bottom: 3px solid rgb(89, 89, 211);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.avg-rating {
+    background: #f0f8ff;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: rgb(89, 89, 211);
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.review {
+    border-bottom: 1px solid #eee;
+    padding: 18px 0;
+}
+
+.review:last-child { border-bottom: none; }
+
+.user-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.stars {
+    color: #f39c12;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.review p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.review small {
+    color: #999;
+}
+
+.write-review {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 2px dashed #ddd;
+}
+
+.write-review h3 {
+    color: rgb(89, 89, 211);
+}
+
+.star-input label {
+    font-size: 28px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.star-input label:hover, .star-input label:hover ~ label {
+    color: #f39c12;
+}
+
+.write-review textarea {
+    width: 100%;
+    height: 110px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px 0;
+    font-family: inherit;
+}
+
+.btn-submit {
+    background: rgb(89, 89, 211);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}

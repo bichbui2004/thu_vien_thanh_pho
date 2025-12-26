@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sách - Thư viện thành phố</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <link rel="stylesheet" href="chitiet.css">
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li style="font-size: 20px;"><a href="trangchu.html">Thư viện thành phố</a></li>
+            <li><a href="trangchu.html">Trang chủ</a></li>
+            <li><a href="#">Chủ đề</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Tiểu thuyết</a></li>
+                    <li><a href="#">Trinh thám</a></li>
+                    <li><a href="#">Truyện tranh</a></li>
+                    <li><a href="#">SGK</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li><a href="giohang.html">Giỏ hàng (2)</a></li>
+            <li><a href="#">Xin chào, Duy Tiến</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Thông tin tài khoản</a></li>
+                    <li><a href="#">Lịch sử mượn sách</a></li>
+                    <li><a href="#">Đăng xuất</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="container-detail">
+        <div class="book-detail">
+            <div class="book-img">
+                <img src="images/dacnhantam.jpg" alt="Đắc Nhân Tâm">
+            </div>
+            <div class="book-content">
+                <h1>Đắc Nhân Tâm</h1>
+                <p class="author">Tác giả: <strong>Dale Carnegie</strong></p>
+                <p>Thể loại: Kỹ năng sống - Tâm lý</p>
+                <p>Nhà xuất bản: NXB Trẻ</p>
+                <p>Năm xuất bản: 2020</p>
+                <p>Số trang: 324 trang</p>
+                <p class="status">Tình trạng: <span style="color:green;">Còn 18 bản</span></p>
+
+                <div class="btn-group">
+                    <button class="btn-add-cart">Thêm vào giỏ mượn</button>
+                    <button class="btn-favorite">Yêu thích</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="description">
+            <h2>Giới thiệu sách</h2>
+            <p>Đắc Nhân Tâm - How to Win Friends and Influence People - là một trong những cuốn sách self-help đầu tiên và nổi tiếng nhất từ trước đến nay. Được xuất bản lần đầu năm 1936, cuốn sách đã bán được hơn 30 triệu bản trên toàn thế giới...</p>
+        </div>
+
+        <!-- CẢM NGHĨ  -->
+        <div class="reviews-section">
+            <h2>Cảm nghĩ của độc giả </h2>
+            <div class="avg-rating">
+                Đánh giá trung bình: 0/5
+            </div>
+
+
+            <!-- Viết cảm nghĩ -->
+            <div class="write-review">
+                <h3>Viết cảm nghĩ của bạn</h3>
+                <div class="star-input">
+                    <span>Đánh giá:</span>
+                    <label>★</label><label>★</label><label>★</label><label>★</label><label>★</label>
+                </div>
+                <textarea placeholder="Chia sẻ cảm nhận của bạn về cuốn sách này..."></textarea>
+                <button class="btn-submit">Gửi cảm nghĩ</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
